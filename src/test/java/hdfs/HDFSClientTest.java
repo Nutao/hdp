@@ -20,7 +20,7 @@ public class HDFSClientTest extends TestCase {
     }
 
     public void testDelete() throws Exception {
-        hdfsClient.delete("/input", true);
+        hdfsClient.delete("/user/root/output", true);
     }
 
     public void testList() throws Exception {

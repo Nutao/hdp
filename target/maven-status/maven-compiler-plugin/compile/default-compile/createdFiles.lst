@@ -1,0 +1,11 @@
+wordcount/WordCount$WordReducer.class
+maxtemprature/MaxTemperature.class
+hdfs/HDFSClient.class
+shell4J/Main.class
+shell4J/shell4J.class
+wordcount/WordCount.class
+maxtemprature/MaxTemperatureMapper.class
+maxtemprature/MaxTemperatureReducer.class
+shell4J/ShellMapper.class
+wordcount/WordCount$WordMapper.class
+shell4J/ShellReducer.class

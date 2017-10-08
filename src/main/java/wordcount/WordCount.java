@@ -1,5 +1,6 @@
 package wordcount;
 
+import hdfs.HDFSClient;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
@@ -84,10 +85,12 @@ public class WordCount {
 
     public static void  main(String[] args) throws Exception{
         //输入路径
-        String inPath = "hdfs://hadoop-master:9000/user/root/input";
+//        String inPath = "hdfs://hadoop-master:9000/user/root/input";
+        String inPath = "input/1901";
         //输出路径，必须是不存在的，空文件加也不行。
-        String outPath = "hdfs://hadoop-master:9000/user/root/output1";
-
+//        String outPath = "hdfs://hadoop-master:9000/user/root/output1";
+        String outPath = "out/1";
+//        new HDFSClient().delete(outPath,true);
         // 获取配置信息
         Configuration conf = new Configuration();
         // 创建一个 Job

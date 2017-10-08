@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="max">
+    <output-path>$PROJECT_DIR$/out/artifacts/max</output-path>
+    <root id="archive" name="max.jar">
+      <element id="module-output" name="hdp" />
+    </root>
+  </artifact>
+</component>
